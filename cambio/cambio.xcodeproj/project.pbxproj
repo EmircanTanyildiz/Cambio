@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F123DEA29FBB710008E7017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F123DE929FBB710008E7017 /* AppDelegate.swift */; };
+		6F123DEC29FBB710008E7017 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F123DEB29FBB710008E7017 /* SceneDelegate.swift */; };
+		6F123DEE29FBB710008E7017 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F123DED29FBB710008E7017 /* ViewController.swift */; };
+		6F123DF129FBB710008E7017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F123DEF29FBB710008E7017 /* Main.storyboard */; };
+		6F123DF429FBB710008E7017 /* cambio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F123DF229FBB710008E7017 /* cambio.xcdatamodeld */; };
+		6F123DF629FBB714008E7017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F123DF529FBB714008E7017 /* Assets.xcassets */; };
+		6F123DF929FBB714008E7017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F123DF729FBB714008E7017 /* LaunchScreen.storyboard */; };
+		6F123E0429FBB715008E7017 /* cambioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F123E0329FBB715008E7017 /* cambioTests.swift */; };
+		6F123E0E29FBB715008E7017 /* cambioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F123E0D29FBB715008E7017 /* cambioUITests.swift */; };
+		6F123E1029FBB715008E7017 /* cambioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F123E0F29FBB715008E7017 /* cambioUITestsLaunchTests.swift */; };
+		6F123E1D29FC0508008E7017 /* unknownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F123E1C29FC0508008E7017 /* unknownViewController.swift */; };
+		6F3CAED829FFA2A80045E71A /* exchangeRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3CAED729FFA2A80045E71A /* exchangeRate.swift */; };
+		6F45B4FF29FEF9D50012061F /* mainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F45B4FE29FEF9D50012061F /* mainMenuViewController.swift */; };
+		6F45B50129FF16950012061F /* currencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F45B50029FF16950012061F /* currencyViewController.swift */; };
+		6F6762142A061370004B4B59 /* haberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6762132A061370004B4B59 /* haberViewController.swift */; };
+		6F6762192A061734004B4B59 /* newsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6762182A061734004B4B59 /* newsCell.swift */; };
+		6F67621C2A062061004B4B59 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F67621B2A062061004B4B59 /* News.swift */; };
+		6F67621E2A06247C004B4B59 /* webService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F67621D2A06247C004B4B59 /* webService.swift */; };
+		6F6762202A062D57004B4B59 /* newsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F67621F2A062D57004B4B59 /* newsViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F123E0029FBB715008E7017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F123DDE29FBB710008E7017 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F123DE529FBB710008E7017;
+			remoteInfo = cambio;
+		};
+		6F123E0A29FBB715008E7017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F123DDE29FBB710008E7017 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F123DE529FBB710008E7017;
+			remoteInfo = cambio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F123DE629FBB710008E7017 /* cambio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cambio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F123DE929FBB710008E7017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F123DEB29FBB710008E7017 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6F123DED29FBB710008E7017 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F123DF029FBB710008E7017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F123DF329FBB710008E7017 /* cambio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cambio.xcdatamodel; sourceTree = "<group>"; };
+		6F123DF529FBB714008E7017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F123DF829FBB714008E7017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F123DFA29FBB714008E7017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F123DFF29FBB715008E7017 /* cambioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cambioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F123E0329FBB715008E7017 /* cambioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cambioTests.swift; sourceTree = "<group>"; };
+		6F123E0929FBB715008E7017 /* cambioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cambioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F123E0D29FBB715008E7017 /* cambioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cambioUITests.swift; sourceTree = "<group>"; };
+		6F123E0F29FBB715008E7017 /* cambioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cambioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6F123E1C29FC0508008E7017 /* unknownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unknownViewController.swift; sourceTree = "<group>"; };
+		6F3CAED729FFA2A80045E71A /* exchangeRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exchangeRate.swift; sourceTree = "<group>"; };
+		6F45B4FE29FEF9D50012061F /* mainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainMenuViewController.swift; sourceTree = "<group>"; };
+		6F45B50029FF16950012061F /* currencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currencyViewController.swift; sourceTree = "<group>"; };
+		6F6762132A061370004B4B59 /* haberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haberViewController.swift; sourceTree = "<group>"; };
+		6F6762182A061734004B4B59 /* newsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsCell.swift; sourceTree = "<group>"; };
+		6F67621B2A062061004B4B59 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		6F67621D2A06247C004B4B59 /* webService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webService.swift; sourceTree = "<group>"; };
+		6F67621F2A062D57004B4B59 /* newsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F123DE329FBB710008E7017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F123DFC29FBB715008E7017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F123E0629FBB715008E7017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F123DDD29FBB710008E7017 = {
+			isa = PBXGroup;
+			children = (
+				6F123DE829FBB710008E7017 /* cambio */,
+				6F123E0229FBB715008E7017 /* cambioTests */,
+				6F123E0C29FBB715008E7017 /* cambioUITests */,
+				6F123DE729FBB710008E7017 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F123DE729FBB710008E7017 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F123DE629FBB710008E7017 /* cambio.app */,
+				6F123DFF29FBB715008E7017 /* cambioTests.xctest */,
+				6F123E0929FBB715008E7017 /* cambioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F123DE829FBB710008E7017 /* cambio */ = {
+			isa = PBXGroup;
+			children = (
+				6F67621A2A062031004B4B59 /* Service */,
+				6F6762172A061488004B4B59 /* viewModel */,
+				6F6762162A06147D004B4B59 /* View */,
+				6F6762152A061473004B4B59 /* Model */,
+				6F123DEF29FBB710008E7017 /* Main.storyboard */,
+				6F123DF529FBB714008E7017 /* Assets.xcassets */,
+				6F123DF729FBB714008E7017 /* LaunchScreen.storyboard */,
+				6F123DFA29FBB714008E7017 /* Info.plist */,
+				6F123DF229FBB710008E7017 /* cambio.xcdatamodeld */,
+			);
+			path = cambio;
+			sourceTree = "<group>";
+		};
+		6F123E0229FBB715008E7017 /* cambioTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F123E0329FBB715008E7017 /* cambioTests.swift */,
+			);
+			path = cambioTests;
+			sourceTree = "<group>";
+		};
+		6F123E0C29FBB715008E7017 /* cambioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F123E0D29FBB715008E7017 /* cambioUITests.swift */,
+				6F123E0F29FBB715008E7017 /* cambioUITestsLaunchTests.swift */,
+			);
+			path = cambioUITests;
+			sourceTree = "<group>";
+		};
+		6F6762152A061473004B4B59 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F67621B2A062061004B4B59 /* News.swift */,
+				6F3CAED729FFA2A80045E71A /* exchangeRate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F6762162A06147D004B4B59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F123DE929FBB710008E7017 /* AppDelegate.swift */,
+				6F123DEB29FBB710008E7017 /* SceneDelegate.swift */,
+				6F123DED29FBB710008E7017 /* ViewController.swift */,
+				6F45B50029FF16950012061F /* currencyViewController.swift */,
+				6F6762132A061370004B4B59 /* haberViewController.swift */,
+				6F45B4FE29FEF9D50012061F /* mainMenuViewController.swift */,
+				6F123E1C29FC0508008E7017 /* unknownViewController.swift */,
+				6F6762182A061734004B4B59 /* newsCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6F6762172A061488004B4B59 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6F67621F2A062D57004B4B59 /* newsViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		6F67621A2A062031004B4B59 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6F67621D2A06247C004B4B59 /* webService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F123DE529FBB710008E7017 /* cambio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F123E1329FBB715008E7017 /* Build configuration list for PBXNativeTarget "cambio" */;
+			buildPhases = (
+				6F123DE229FBB710008E7017 /* Sources */,
+				6F123DE329FBB710008E7017 /* Frameworks */,
+				6F123DE429FBB710008E7017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cambio;
+			productName = cambio;
+			productReference = 6F123DE629FBB710008E7017 /* cambio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F123DFE29FBB715008E7017 /* cambioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F123E1629FBB715008E7017 /* Build configuration list for PBXNativeTarget "cambioTests" */;
+			buildPhases = (
+				6F123DFB29FBB715008E7017 /* Sources */,
+				6F123DFC29FBB715008E7017 /* Frameworks */,
+				6F123DFD29FBB715008E7017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F123E0129FBB715008E7017 /* PBXTargetDependency */,
+			);
+			name = cambioTests;
+			productName = cambioTests;
+			productReference = 6F123DFF29FBB715008E7017 /* cambioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F123E0829FBB715008E7017 /* cambioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F123E1929FBB715008E7017 /* Build configuration list for PBXNativeTarget "cambioUITests" */;
+			buildPhases = (
+				6F123E0529FBB715008E7017 /* Sources */,
+				6F123E0629FBB715008E7017 /* Frameworks */,
+				6F123E0729FBB715008E7017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F123E0B29FBB715008E7017 /* PBXTargetDependency */,
+			);
+			name = cambioUITests;
+			productName = cambioUITests;
+			productReference = 6F123E0929FBB715008E7017 /* cambioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F123DDE29FBB710008E7017 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					6F123DE529FBB710008E7017 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					6F123DFE29FBB715008E7017 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6F123DE529FBB710008E7017;
+					};
+					6F123E0829FBB715008E7017 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6F123DE529FBB710008E7017;
+					};
+				};
+			};
+			buildConfigurationList = 6F123DE129FBB710008E7017 /* Build configuration list for PBXProject "cambio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F123DDD29FBB710008E7017;
+			productRefGroup = 6F123DE729FBB710008E7017 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F123DE529FBB710008E7017 /* cambio */,
+				6F123DFE29FBB715008E7017 /* cambioTests */,
+				6F123E0829FBB715008E7017 /* cambioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F123DE429FBB710008E7017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F123DF929FBB714008E7017 /* LaunchScreen.storyboard in Resources */,
+				6F123DF629FBB714008E7017 /* Assets.xcassets in Resources */,
+				6F123DF129FBB710008E7017 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F123DFD29FBB715008E7017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F123E0729FBB715008E7017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F123DE229FBB710008E7017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F123DEE29FBB710008E7017 /* ViewController.swift in Sources */,
+				6F123DEA29FBB710008E7017 /* AppDelegate.swift in Sources */,
+				6F67621E2A06247C004B4B59 /* webService.swift in Sources */,
+				6F45B50129FF16950012061F /* currencyViewController.swift in Sources */,
+				6F123DF429FBB710008E7017 /* cambio.xcdatamodeld in Sources */,
+				6F6762192A061734004B4B59 /* newsCell.swift in Sources */,
+				6F6762142A061370004B4B59 /* haberViewController.swift in Sources */,
+				6F6762202A062D57004B4B59 /* newsViewModel.swift in Sources */,
+				6F67621C2A062061004B4B59 /* News.swift in Sources */,
+				6F3CAED829FFA2A80045E71A /* exchangeRate.swift in Sources */,
+				6F123DEC29FBB710008E7017 /* SceneDelegate.swift in Sources */,
+				6F45B4FF29FEF9D50012061F /* mainMenuViewController.swift in Sources */,
+				6F123E1D29FC0508008E7017 /* unknownViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F123DFB29FBB715008E7017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F123E0429FBB715008E7017 /* cambioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F123E0529FBB715008E7017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F123E0E29FBB715008E7017 /* cambioUITests.swift in Sources */,
+				6F123E1029FBB715008E7017 /* cambioUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F123E0129FBB715008E7017 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F123DE529FBB710008E7017 /* cambio */;
+			targetProxy = 6F123E0029FBB715008E7017 /* PBXContainerItemProxy */;
+		};
+		6F123E0B29FBB715008E7017 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F123DE529FBB710008E7017 /* cambio */;
+			targetProxy = 6F123E0A29FBB715008E7017 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F123DEF29FBB710008E7017 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F123DF029FBB710008E7017 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F123DF729FBB714008E7017 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F123DF829FBB714008E7017 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F123E1129FBB715008E7017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F123E1229FBB715008E7017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F123E1429FBB715008E7017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMPY87VTQL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cambio/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emircantanyildiz.cambio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F123E1529FBB715008E7017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMPY87VTQL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cambio/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emircantanyildiz.cambio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F123E1729FBB715008E7017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMPY87VTQL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emircantanyildiz.cambioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cambio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cambio";
+			};
+			name = Debug;
+		};
+		6F123E1829FBB715008E7017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMPY87VTQL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emircantanyildiz.cambioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cambio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cambio";
+			};
+			name = Release;
+		};
+		6F123E1A29FBB715008E7017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMPY87VTQL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emircantanyildiz.cambioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cambio;
+			};
+			name = Debug;
+		};
+		6F123E1B29FBB715008E7017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WMPY87VTQL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emircantanyildiz.cambioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cambio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F123DE129FBB710008E7017 /* Build configuration list for PBXProject "cambio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F123E1129FBB715008E7017 /* Debug */,
+				6F123E1229FBB715008E7017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F123E1329FBB715008E7017 /* Build configuration list for PBXNativeTarget "cambio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F123E1429FBB715008E7017 /* Debug */,
+				6F123E1529FBB715008E7017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F123E1629FBB715008E7017 /* Build configuration list for PBXNativeTarget "cambioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F123E1729FBB715008E7017 /* Debug */,
+				6F123E1829FBB715008E7017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F123E1929FBB715008E7017 /* Build configuration list for PBXNativeTarget "cambioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F123E1A29FBB715008E7017 /* Debug */,
+				6F123E1B29FBB715008E7017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6F123DF229FBB710008E7017 /* cambio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6F123DF329FBB710008E7017 /* cambio.xcdatamodel */,
+			);
+			currentVersion = 6F123DF329FBB710008E7017 /* cambio.xcdatamodel */;
+			path = cambio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6F123DDE29FBB710008E7017 /* Project object */;
+}
